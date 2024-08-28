@@ -27,5 +27,17 @@
           opacity 0.1s ease;
       }
     }
+    @font-face {
+      font-family: 'GothamBook';
+      src: url('../../assets/fonts/gotham-book.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    .textStyle {
+      font-family: 'GothamBook', sans-serif;
+      font-weight: bold;
+    }
+    
   }
 }
